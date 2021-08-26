@@ -1,0 +1,29 @@
+{
+  "name": "project_pulse",
+  "version": "1.0.0",
+  "description": "Responsive layout using gulp, bem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetianaBron/pulse.git"
+  },
+  "author": "Tetiana Bronitska <tanya_nest@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TetianaBron/pulse/issues"
+  },
+  "homepage": "https://tetianabron.github.io/pulse/",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.38.1"
+  }
+}
