@@ -1,8 +1,22 @@
+@import "base/variables";
+// @import "mixins";
+// @import "media";
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Museo Sans Cyrl', sans-serif;
 }
-    
-@import "variables";
-@import "mixins";
-@import "general";
-@import "media";
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/titles";
