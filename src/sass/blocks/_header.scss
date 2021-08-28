@@ -12,12 +12,12 @@
         color: $white_color;
         font-weight: 500;
         font-size: 12px;
-        line-height: 12px;
+        line-height: 1;
         text-align: center;
         span {
             display: block;
             font-size: 18px;
-            line-height: 29px;
+            line-height: 1.6;
         }
     }
     &__phone {
@@ -25,7 +25,7 @@
         color: $white_color;
         font-weight: bold;
         font-size: 18px;
-        line-height: 18px;
+        line-height: 1;
         margin-bottom: 5px;
         text-decoration: none;
         &:hover {
@@ -36,5 +36,42 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+    }
+
+    @media screen and (max-width: 767px) {
+    &__logo {
+        width: 180px;
+    }
+    &__official {
+        font-size: 11px;
+        span {
+            font-size: 14px;
+        }
+    }   
+    &__phone {
+        font-size: 14px;
+    }
+    }    
+    
+    @media screen and (max-width: 575px) {
+    flex-direction: column;
+    &__logo {
+        width: 250px;
+    }
+    &__official {
+        margin-top: 26px;
+        font-size: 16px;
+        span {
+            font-size: 18px;
+        }
+    } 
+    &__phone {
+        margin-top: 22px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    &__contacts {
+        align-items: center;
+    }
     }
 }
