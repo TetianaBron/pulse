@@ -4,6 +4,14 @@
     font-weight: bold;
     line-height: 1;
     text-align: center;
+    text-transform: uppercase;
+
+    &_left {
+        color: $white_color;
+        font-size: 36px;
+        line-height: 1.55;
+        text-align: left; 
+    }
 
     @media screen and (max-width: 767px) {
         font-size: 24px;
