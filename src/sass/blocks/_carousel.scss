@@ -1,12 +1,12 @@
 .carousel {
-    padding: 83px 0 81px 0;
+    padding: 110px 0 107px 0;
     &__inner {
         position: relative;
         width: 750px;
         margin: 0 auto;
     }
-    .slick-prev, 
-    .slick-next {
+    .prev, 
+    .next {
         position: absolute;
         top: 50%;  
         transform: translateY(-50%);
@@ -17,28 +17,59 @@
             height: 50px;
         }
     }
-    .slick-prev {
-        left: -67px;
+     // for click-slider  
+    // .prev {
+    //     left: -67px;
+    // }
+    // .next {
+    //     right: -67px;
+    // }
+    .prev {
+        left: 0px;
     }
-    .slick-next {
-        right: -67px;
+    .next {
+        right: 0px;
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
     }
 
     @media screen and (max-width: 991px) {
+    padding: 60px 0 60px 0;
     &__inner {
     width: 550px;
         img {
             width: 75%;
             margin: 0 auto;
         }
-    .slick-dots {
-        display: flex;
-        justify-content: center;
-        button {
-                visibility: hidden;    
-           }
-        }
+    // for click-slider    
+    // .slick-dots {
+    //     display: flex;
+    //     justify-content: center;
+    //     button {
+    //             visibility: hidden;    
+    //        }
+    //     } 
     }
+    .prev, .next {
+        display: none;
+    }
+    
+    .tns-nav {
+        text-align: center;
+        margin-bottom: 40px;
+            button {
+                width: 20px;
+                height: 10px;
+            }
+        }
+        .tns-nav-active {
+            background-color: $accent_color;
+        }
     }   
 
     @media screen and (max-width: 575px) {
