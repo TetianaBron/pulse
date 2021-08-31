@@ -1,13 +1,12 @@
 @import "base/variables";
-// @import "mixins";
-// @import "media";
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, ul {
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -36,3 +35,4 @@ h1, h2, h3, p {
 @import "blocks/consultation";
 @import "blocks/forms";
 @import "blocks/carousel";
+@import "blocks/catalog";
