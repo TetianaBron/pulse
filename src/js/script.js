@@ -117,7 +117,7 @@ $(function() {
             name: {
                 required: "Пожалуйста, введите свое имя",
                 minlength: jQuery.validator.format("Введите минимум {0} буквы")
-                },
+            },
             phone: "Пожалуйста, введите свой номер телефона",
             email: {
                 required: "Пожалуйста, введите свою почту",
@@ -131,5 +131,7 @@ $(function() {
     validateForms('#consultation form');
     validateForms('#order form');
 
+    // Mask for phone in inputs
+    $('input[name="phone"]').mask("+7 (999) 999-99-99");
 });
 })(jQuery);
