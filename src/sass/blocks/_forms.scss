@@ -16,4 +16,12 @@
             margin-bottom: 17px;
         }
     }
+    &_mt25 {
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    @media screen and (max-width: 575px) {
+    width: 260px;
+    }
 }
