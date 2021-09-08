@@ -1,0 +1,119 @@
+.promo {
+    min-height: 650px;
+    padding: 21px 0 93px 0;
+    background: url('../img/bg.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 91px;
+    }
+    &__header {
+        color: $white_color;
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        margin-top: 17px;
+        color: $white_color;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        width: 425px;
+        justify-content: space-between;
+    }
+    &__icon {
+        width: 108px;
+        color: $white_color;
+        font-weight: 500;
+        font-size: 14px;   
+        text-align: center;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link {
+        margin-top: 8px;
+        color: $white_color;
+        font-weight: 500;
+        font-size: 16px;
+        a {
+            color: inherit;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+    min-height: 550px;
+    padding-bottom: 46px;
+
+    &__wrapper {
+        margin-top: 63px;
+    }
+    }
+
+    @media screen and (max-width: 767px) {
+    min-height: 450px;
+    &__wrapper {
+        margin-top: 56px;
+    }
+    &__header {
+        font-size: 32px;
+    }   
+    &__subheader {
+        margin-top: 14px;
+        font-size: 18px;
+    } 
+    &__icon {
+        img {
+            margin-bottom: 14px;
+        }
+    }
+    &__link {
+        margin-top: 6px;
+        font-size: 14px;
+    }
+    }
+
+    @media screen and (max-width: 575px) {
+    background-position: 30%;  
+    &__wrapper {
+    margin-top: 34px;
+    align-items: center;
+    }
+    &__header {
+        font-size: 22px;
+    } 
+    &__subheader {
+        margin-top: 10px;
+        font-size: 14px;
+    } 
+    &__icons {
+        margin-top: 30px;    
+        width: 280px;
+        
+    }
+    &__icon {
+        width: 100px;
+        font-size: 12px;   
+        text-align: center;
+        img {
+            margin-bottom: 10px;
+        }
+    }
+    &__link {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    }
+}
