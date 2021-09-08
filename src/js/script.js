@@ -74,7 +74,7 @@ $(function() {
         $(this).on('click', function (e) {
             e.preventDefault();
             $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
-            $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
+            $('.catalog-item__details').eq(i).toggleClass('catalog-item__details_active');
 
         })
         })
@@ -160,7 +160,7 @@ $(function() {
         }
     });
 
-    $("a[href^='#']").click(function(){
+    $("a[href='#up']").click(function(){
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;

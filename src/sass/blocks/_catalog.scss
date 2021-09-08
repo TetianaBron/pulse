@@ -2,7 +2,6 @@
     padding-bottom: 80px;
     &__tabs {
         margin-top: 46px;
-        list-style-type: none;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -124,7 +123,7 @@
                 margin-right: 20px;
             }
         }
-        &__list {
+        &__details {
             position: relative;
             width: 50%;
             margin-left: 20px;
@@ -132,7 +131,6 @@
             padding-left: 15px;
             transform: translateX(0%);
             transition: 0.5s all;
-            list-style-type: none;
             li {
                 position: relative;
                 margin-bottom: 10px;
