@@ -1,5 +1,5 @@
 # Pulse
-Responsive layout 
+Responsive Landing Page
 
 ## Technologies are used:
 * HTML5; 
