@@ -1,7 +1,7 @@
 # Pulse
 Responsive layout 
 
-##Technologies are used:
+## Technologies are used:
 * HTML5; 
 * SASS, 
 * BEM;
