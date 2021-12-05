@@ -6,5 +6,5 @@ Responsive Landing Page
 * SASS, 
 * BEM;
 * JQUERY;
-* Libs - bootstrap.reboot, animate.css, wow.js, tiny-slider, slick;
+* Libs - bootstrap.reboot, animate.css, wow.js;
 * GULP
